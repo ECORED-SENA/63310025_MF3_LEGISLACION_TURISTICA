@@ -1,0 +1,132 @@
+[
+  {
+    "icon": "fa fa-home",
+    "slug": "external",
+    "title": "Volver al inicio",
+    "path": "index.html"
+  },  
+  { 
+    "id": 1,
+    "icon": "fa fa-play-circle",
+    "slug": "Introduccion",
+    "title": "Introducción",
+    "breadcrumb": ["Inicio","Introducción"],
+    "path": "pages/intro.html"
+  },  
+  { 
+    "id": 2,
+    "icon": "fa fa-file-text-o",
+    "slug": "entidades",
+    "title": "1. Entidades territoriales",
+    "breadcrumb": ["Inicio","tema 1"],
+    "path": "pages/1-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "entidades",
+        "title": "1.1 ¿Qué es una entidad territorial?",
+        "anchor": "11"
+      },   
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "entidades",
+        "title": "1.2 Por qué la descentralización en Colombia",
+        "anchor": "12"
+      }
+    ] 
+   },
+
+  {
+    "id": 3,
+    "icon": "fa fa-file-text-o",
+    "slug": "departamento",
+    "title": "2. Departamento nacional de planeación y el plan nacional de desarrollo",
+    "breadcrumb": ["Inicio","Tema 2"],
+    "path": "pages/2-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "departamento",
+        "title": "2.1 ¿Qué es el Plan Nacional de Desarrollo?",
+        "anchor": "21"
+      },   
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "departamento",
+        "title": "2.2 Funciones del DNP relacionadas con el PND",
+        "anchor": "22"
+      }
+    ] 
+  
+  },
+  { 
+    "id": 4,
+    "icon": "fa fa-file-text-o",
+    "slug": "conpes",
+    "title": "3. CONPES 3397 de turismo",
+    "breadcrumb": ["Inicio","tema 3"],
+    "path": "pages/3-tema.html"
+  },
+  { 
+    "id": 5,
+    "icon": "fa fa-file-text-o",
+    "slug": "planes",
+    "title": "4. Planes sectoriales de turismo",
+    "breadcrumb": ["Inicio","tema 4"],
+    "path": "pages/4-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "planes",
+        "title": "4.1 Apoyo a los planes de desarrollo del sector",
+        "anchor": "41"
+      },   
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "planes",
+        "title": "4.2 Entidades que apoyan los planes de desarrollo turístico",
+        "anchor": "42"
+      }
+    ]
+  },
+  { 
+    "id": 6,
+    "icon": "fa fa-file-text-o",
+    "slug": "certificaciones",
+    "title": "5. Certificaciones de calidad turística",
+    "breadcrumb": ["Inicio","tema 5"],
+    "path": "pages/5-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "certificaciones",
+        "title": "5.1 Objetivos",
+        "anchor": "51"
+      }
+    ]
+  },
+  { 
+    "id": 7,
+    "icon": "fa fa-file-text-o",
+    "slug": "policia",
+    "title": "6. Policía de turismo",
+    "breadcrumb": ["Inicio","tema 6"],
+    "path": "pages/6-tema.html",    
+    "submenu": [
+      {
+        "icon": "fa fa-file-text-o",
+        "slug": "policia",
+        "title": "6.1 Objetivos",
+        "anchor": "61"
+      }
+    ]
+  },
+  
+  {
+    "icon": "fa fa-question-circle",
+    "slug": "actividad-1",
+    "title": "Actividad didáctica",
+    "path": "pages/actividad-1.html"
+  }
+  
+]
