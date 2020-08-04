@@ -37,7 +37,12 @@ html(lang="es")
 
                                 ul.list-group.list-group-flush.list.my-n3.nav-temas
                                     +navTemaItem('play', 'Introducción', '#introduccion')
-                                    +navTemaItem('1', 'Normativa vigente proceso ECCL', '#tema-1')
+                                    +navTemaItem('1', 'Entidades territoriales', '#tema-1')
+                                    +navTemaItem('2', 'Departamento nacional de planeación y el plan nacional de desarrollo', '#tema-2')
+                                    +navTemaItem('3', 'CONPES 3397 de turismo', '#tema-3')
+                                    +navTemaItem('4', 'Planes sectoriales de turismo', '#tema-4')
+                                    +navTemaItem('5', 'Certificaciones de calidad turística', '#tema-5')
+                                    +navTemaItem('6', 'Policía de turismo', '#tema-6')
                                     +navTemaItem('question', 'Actividad didáctica', '#evaluacion')
                                     +navTemaItem('glosary', 'Glosario', '#glosario')
                                     +navTemaItem('folder', 'Material complementario', '#anexos')
@@ -49,6 +54,16 @@ html(lang="es")
                 include pages/intro.pug
             #tema-1
                 include pages/1-tema.pug
+            #tema-2
+                include pages/2-tema.pug
+            #tema-3
+                include pages/3-tema.pug
+            #tema-4
+                include pages/4-tema.pug
+            #tema-5
+                include pages/5-tema.pug
+            #tema-6
+                include pages/6-tema.pug
             #evaluacion
                 include pages/actividad-1.pug
             #glosario
