@@ -125,3 +125,27 @@
         border-top: 1px solid $orange;
     }
 }
+
+.boton_personalizado{
+    text-decoration: none;
+    padding: 10px;
+    font-weight: 600;
+    font-size: 20px;
+    color: #ffffff;
+    background-color: #00223D;
+    border-radius: 6px;
+    border: 2px solid #FA803F;
+  }
+
+  .button {
+    display: inline-block;
+    padding: 15px 25px;
+    font-size: 20px;   
+    text-align: center;   
+    text-decoration: none;
+    outline: none;
+    color: #fff;
+    background-color: #FA803F;
+    border: 2px solid #00223D;
+    border-radius: 15px;   
+  }
